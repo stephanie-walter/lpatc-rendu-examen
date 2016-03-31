@@ -1,5 +1,5 @@
-# Numéro de groupe
+    # Numéro de groupe
 
-- Nom + Prénom + Numéro d'étudiant
-- Nom + Prénom + Numéro d'étudiant
-- Nom + Prénom + Numéro d'étudiant
+- Ngu Leubou Richard
+- Stephan Thomas 
+- Andriamaheninjafy Mahaly
