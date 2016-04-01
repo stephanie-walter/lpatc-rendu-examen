@@ -6,10 +6,12 @@
 /*---------------Global CSS  */
 /* ------------------------------------------------ */
 p { 
-	font-family: 'Open Sans', sans-serif;}
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #687170; }
 
 h4 {
-	}
+	 }
 	
 .row  {
 }
@@ -29,15 +31,44 @@ h4 {
 /*----services----*/
 
 .services { 
-color: blue;
-padding: 0px 143px 0px 143px;
-}
+	color: blue;
+	padding: 38px 143px 0px 143px; }
+
+.services h4 {
+	font-family: 'Open Sans', sans-serif;;
+	font-size: 22px;
+	font-weight: 700;
+	color: #fa714d;
+	line-height: 50px; }
+	
+.services p {
+		line-height:24px; }
 
 .col-md-4 {
 }
 
 .services .btn { 
-	color:#9D5253;}
+	font-family: 'Open Sans', sans-serif;;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	position: relative;
+	width: 200px;
+	height: 50px;
+	display: block;
+	text-decoration: none;
+	margin: 30px auto;
+	border-radius: 5px;
+	background: #77a1a0;
+	text-align: center;
+
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	-webkit-box-shadow: 0px 9px 0px #576f6f;
+    -moz-box-shadow: 0px 9px 0px #576f6f;
+	box-shadow: 0px 4px 0px #576f6f;}
 
 /*----support----*/
 
