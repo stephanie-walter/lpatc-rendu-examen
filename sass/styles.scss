@@ -1,0 +1,152 @@
+//@import "_variables.scss"
+//color
+$graygreen: #576f6f;
+$lightgraygreen: #c8d8d7;
+$orange: #f28858;
+$darkorange : #b56642;
+$lightgray: #77a1a0;
+#nav-second {
+  background-color: $graygreen;
+  height: 40px;
+  li {
+    a {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 7px;
+      font-family: "Open sans";
+      font-weight: 400;
+      color: $lightgraygreen;
+      &:hover {
+        background-color: $graygreen;
+      }
+    }
+  }
+}
+#nav-princ {
+  background-color: $orange;
+  height: 60px;
+  -moz-box-shadow: 0 3px 0 0 #b56642;
+  -webkit-box-shadow: 0 3px 0 0 #b56642;
+  -o-box-shadow: 0 3px 0 0 #b56642;
+  box-shadow: 0 3px 0 0 #b56642;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#b56642, Direction=180, Strength=0);
+  margin-bottom: 3px;
+  .container-fluid {
+    margin-top: 4px;
+  }
+  .navbar-brand {
+    img {
+      display: inline-block;
+      &:nth-child(1) {
+        vertical-align: top;
+      }
+    }
+  }
+  .navbar-right {
+    li {
+      margin-right: 20px;
+      a {
+        font-family: "Open sans";
+        font-weight: 700;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.news {
+  .thumbnail {
+    padding: 0;
+    border: 0;
+    img:nth-child(2){
+      margin-top: -25px;
+      background-color: $graygreen;
+      padding: 10px;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+    }
+    .caption {
+      h3 {
+        font-family: "Open sans";
+        font-weight: 700;
+        font-size: 1.5em;
+        color: $orange;
+        margin-top: 5px;
+      }
+      p {
+        font-family: "Open sans";
+        font-weight: 400;
+        font-size: 1em;
+        color: $lightgray;
+      }
+      a {
+        font-family: "Open sans";
+        font-weight: 400;
+        font-size: 1em;
+        color: $lightgray;
+      }
+    }
+    .footerthumb {
+      p{
+        font-family: "Open sans";
+        font-weight: 400;
+        font-size: 0.95em;
+      }
+    }
+  }
+}
+footer{
+  .arrowfooter{
+    height: 99px;
+    background: url("../img/arrowfooter.png") no-repeat center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+.contentfooter{
+  background-color: $orange;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h3{
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+    color: #ffffff;
+  .about{
+    p{
+      font-family: "Open sans";
+      font-weight: 400;
+      font-size: 1.05em;
+    }
+    p:nth-child(3){
+      font-family: "PT Sans";
+      opacity: 0.7;
+    }
+  }
+  .products{
+    ul{
+      font-family: "Open sans";
+      font-weight: 400;
+      font-size: 1.05em;
+      opacity: 0.7;
+    }
+    input{
+      border: 2px solid #fa6734;
+    }
+  }
+}
+.copyright{
+  background-color: $darkorange;
+  p{
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 1.05em;
+    color: #ffffff;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .social{
+    margin-top: 7px;
+  }
+}

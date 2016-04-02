@@ -1,0 +1,109 @@
+#nav-second {
+  background-color: #576f6f;
+  height: 40px; }
+  #nav-second li a {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 7px;
+    font-family: "Open sans";
+    font-weight: 400;
+    color: #c8d8d7; }
+    #nav-second li a:hover {
+      background-color: #576f6f; }
+
+#nav-princ {
+  background-color: #f28858;
+  height: 60px;
+  -moz-box-shadow: 0 3px 0 0 #b56642;
+  -webkit-box-shadow: 0 3px 0 0 #b56642;
+  -o-box-shadow: 0 3px 0 0 #b56642;
+  box-shadow: 0 3px 0 0 #b56642;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#b56642, Direction=180, Strength=0);
+  margin-bottom: 3px; }
+  #nav-princ .container-fluid {
+    margin-top: 4px; }
+  #nav-princ .navbar-brand img {
+    display: inline-block; }
+    #nav-princ .navbar-brand img:nth-child(1) {
+      vertical-align: top; }
+  #nav-princ .navbar-right li {
+    margin-right: 20px; }
+    #nav-princ .navbar-right li a {
+      font-family: "Open sans";
+      font-weight: 700;
+      color: #ffffff; }
+
+.news .thumbnail {
+  padding: 0;
+  border: 0; }
+  .news .thumbnail img:nth-child(2) {
+    margin-top: -25px;
+    background-color: #576f6f;
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid #ffffff; }
+  .news .thumbnail .caption h3 {
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #f28858;
+    margin-top: 5px; }
+  .news .thumbnail .caption p {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 1em;
+    color: #77a1a0; }
+  .news .thumbnail .caption a {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 1em;
+    color: #77a1a0; }
+  .news .thumbnail .footerthumb p {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 0.95em; }
+
+footer .arrowfooter {
+  height: 99px;
+  background: url("../img/arrowfooter.png") no-repeat center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.contentfooter {
+  background-color: #f28858;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffffff; }
+  .contentfooter h3 {
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 1.5em; }
+  .contentfooter .about p {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 1.05em; }
+  .contentfooter .about p:nth-child(3) {
+    font-family: "PT Sans";
+    opacity: 0.7; }
+  .contentfooter .products ul {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 1.05em;
+    opacity: 0.7; }
+  .contentfooter .products input {
+    border: 2px solid #fa6734; }
+
+.copyright {
+  background-color: #b56642; }
+  .copyright p {
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 1.05em;
+    color: #ffffff;
+    margin-top: 7px;
+    margin-bottom: 7px; }
+  .copyright .social {
+    margin-top: 7px; }
+
+/*# sourceMappingURL=styles.css.map */
