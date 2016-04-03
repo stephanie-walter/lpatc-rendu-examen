@@ -4,7 +4,9 @@
     font-family: "Open sans";
     background : #c8d8d7;
 }
-
+#slider .carousel-inner{
+  padding-top: 70px;
+}
 .big-arrow {
 background : url("../img/header-arrow.png") no-repeat center bottom;
 display : block;
@@ -14,7 +16,7 @@ margin-top : -1px;
 
 #slider .container {
 	width:100%;
-    padding : 5% 0;
+  padding : 3% 0;
 }
 
 .img_slider {
