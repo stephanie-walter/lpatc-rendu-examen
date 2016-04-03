@@ -2,4 +2,5 @@
 
 - Vanardois + Romain + 21518545
 - Janel + Maryne + 21520054
-- Nom + Prénom + Numéro d'étudiant
+- Gronier + Salomé + 21413609
+- Thibaud + Benjamin +
