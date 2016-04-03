@@ -5,6 +5,7 @@ $lightgraygreen: #c8d8d7;
 $orange: #f28858;
 $darkorange: #b56642;
 $lightgray: #77a1a0;
+
 #nav-second {
   background-color: $graygreen;
   height: 40px;
@@ -20,6 +21,12 @@ $lightgray: #77a1a0;
         background-color: $graygreen;
       }
       &:focus {
+        background-color: $graygreen;
+      }
+      &:active {
+        background-color: $graygreen;
+      }
+      &:visited {
         background-color: $graygreen;
       }
     }
@@ -133,6 +140,7 @@ $lightgray: #77a1a0;
   .thumbnail {
     padding: 0;
     border: 0;
+    box-shadow: 0 5px 0px rgba(0,0,0,.075);
     img:nth-child(2) {
       margin-top: -25px;
       background-color: $graygreen;
@@ -183,12 +191,28 @@ footer {
   background-color: $orange;
   padding-top: 50px;
   padding-bottom: 50px;
+  color: #ffffff;
+  .btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    background: #77a1a0;
+    text-align: center;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-box-shadow: 0 4px 0 #576f6f;
+    -moz-box-shadow: 0 4px 0 #576f6f;
+    box-shadow: 0 4px 0 #576f6f;
+  }
   h3 {
     font-family: "Open sans";
     font-weight: 700;
     font-size: 1.5em;
   }
-  color: #ffffff;
+
   .about {
     p {
       font-family: "Open sans";
@@ -253,6 +277,7 @@ footer {
   color: #687170;
 }
 .services .btn {
+  outline: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -269,9 +294,18 @@ footer {
   -webkit-transition: all 0.1s;
   -moz-transition: all 0.1s;
   transition: all 0.1s;
-  -webkit-box-shadow: 0 9px 0 #576f6f;
-  -moz-box-shadow: 0 9px 0 #576f6f;
+  -webkit-box-shadow: 0 4px 0 #576f6f;
+  -moz-box-shadow: 0 4px 0 #576f6f;
   box-shadow: 0 4px 0 #576f6f;
+  &:focus:active{
+    outline: none;
+    border: 0;
+    top:2px;
+    -webkit-box-shadow: 0 1px 0 #576f6f;
+    -moz-box-shadow: 0 1px 0 #576f6f;
+    box-shadow: 0 1px 0 #576f6f;
+  }
+
 }
 /*----support----*/
 .support {
@@ -308,38 +342,54 @@ footer {
   -webkit-transition: all 0.1s;
   -moz-transition: all 0.1s;
   transition: all 0.1s;
-  -webkit-box-shadow: 0 9px 0 #b56642;
-  -moz-box-shadow: 0 9px 0 #b56642;
+  -webkit-box-shadow: 0 3px 0 #b56642;
+  -moz-box-shadow: 0 3px 0 #b56642;
   box-shadow: 0 3px 0 #b56642;
   &:hover{
+    outline: none;
     background: #cd8757;
     text-align: center;
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-    -webkit-box-shadow: 0 9px 0 #b56642;
-    -moz-box-shadow: 0 9px 0 #b56642;
+    -webkit-box-shadow: 0 3px 0 #b56642;
+    -moz-box-shadow: 0 3px 0 #b56642;
     box-shadow: 0 3px 0 #b56642;
   }
   &:focus{
+    outline: none;
     background: #cd8757;
     text-align: center;
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-    -webkit-box-shadow: 0 9px 0 #b56642;
-    -moz-box-shadow: 0 9px 0 #b56642;
+    -webkit-box-shadow: 0 3px 0 #b56642;
+    -moz-box-shadow: 0 3px 0 #b56642;
     box-shadow: 0 3px 0 #b56642;
   }
   &:active{
+    outline: none;
     background: #cd8757;
     text-align: center;
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-    -webkit-box-shadow: 0 9px 0 #b56642;
-    -moz-box-shadow: 0 9px 0 #b56642;
+    -webkit-box-shadow: 0 3px 0 #b56642;
+    -moz-box-shadow: 0 3px 0 #b56642;
     box-shadow: 0 3px 0 #b56642;
+  }
+  &:active:focus{
+    outline: none;
+    border: 0;
+    background: #cd8757;
+    text-align: center;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-box-shadow: 0 1px 0 #b56642;
+    -moz-box-shadow: 0 1px 0 #b56642;
+    box-shadow: 0 1px 0 #b56642;
+    top:1px;
   }
 }
 .support .btn {
