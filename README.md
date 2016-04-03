@@ -1,5 +1,5 @@
-# Numéro de groupe
+# Groupe 5
 
-- Nom + Prénom + Numéro d'étudiant
+- Vanardois + Romain + 21518545
 - Nom + Prénom + Numéro d'étudiant
 - Nom + Prénom + Numéro d'étudiant

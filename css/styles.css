@@ -1,0 +1,272 @@
+#nav-second {
+  background-color: #576f6f;
+  height: 40px; }
+  #nav-second li a {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 7px;
+    font-family: "Open sans";
+    font-weight: 400;
+    color: #c8d8d7; }
+    #nav-second li a:hover {
+      background-color: #576f6f; }
+
+#nav-princ {
+  background-color: #f28858;
+  height: 60px;
+  -moz-box-shadow: 0 3px 0 0 #b56642;
+  -webkit-box-shadow: 0 3px 0 0 #b56642;
+  -o-box-shadow: 0 3px 0 0 #b56642;
+  box-shadow: 0 3px 0 0 #b56642;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#b56642, Direction=180, Strength=0);
+  margin-bottom: 3px; }
+  #nav-princ .container-fluid {
+    margin-top: 4px; }
+  #nav-princ .navbar-brand img {
+    display: inline-block; }
+    #nav-princ .navbar-brand img:nth-child(1) {
+      vertical-align: top; }
+  #nav-princ .navbar-right li {
+    margin-right: 20px; }
+    #nav-princ .navbar-right li a {
+      font-family: "Open sans";
+      font-weight: 700;
+      color: #ffffff; }
+
+.news .thumbnail {
+  padding: 0;
+  border: 0; }
+  .news .thumbnail img:nth-child(2) {
+    margin-top: -25px;
+    background-color: #576f6f;
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid #ffffff; }
+  .news .thumbnail .caption h3 {
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #f28858;
+    margin-top: 5px; }
+  .news .thumbnail .caption p {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 1em;
+    color: #77a1a0; }
+  .news .thumbnail .caption a {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 1em;
+    color: #77a1a0; }
+  .news .thumbnail .footerthumb p {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 0.95em; }
+
+footer .arrowfooter {
+  height: 99px;
+  background: url("../img/arrowfooter.png") no-repeat center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.contentfooter {
+  background-color: #f28858;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffffff; }
+  .contentfooter h3 {
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 1.5em; }
+  .contentfooter .about p {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 1.05em; }
+  .contentfooter .about p:nth-child(3) {
+    font-family: "PT Sans";
+    opacity: 0.7; }
+  .contentfooter .products ul {
+    font-family: "Open sans";
+    font-weight: 400;
+    font-size: 1.05em;
+    opacity: 0.7; }
+  .contentfooter .products input {
+    border: 2px solid #fa6734; }
+
+.copyright {
+  background-color: #b56642; }
+  .copyright p {
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 1.05em;
+    color: #ffffff;
+    margin-top: 7px;
+    margin-bottom: 7px; }
+  .copyright .social {
+    margin-top: 7px; }
+
+/*
+    ---Salome_css
+*/
+/* ------------------------------------------------ */
+/*---------------Section Content */
+/* ------------------------------------------------ */
+/*#content {}
+    .container text-center {}
+    .text-center {}*/
+/*----services----*/
+.services {
+  padding: 38px 120px 0px 120px; }
+
+.services h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fa714d;
+  line-height: 50px; }
+
+.services p {
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #687170; }
+
+.services .btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  margin: 30px auto;
+  border-radius: 5px;
+  background: #77a1a0;
+  text-align: center;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 9px 0px #576f6f;
+  -moz-box-shadow: 0px 9px 0px #576f6f;
+  box-shadow: 0px 4px 0px #576f6f; }
+
+/*----support----*/
+.support {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  /*margin: 55px 110px 0px 110px;
+  padding: 15px 100px 4px 12px;*/ }
+
+.support h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #7f8c8c; }
+
+.support p {
+  color: #687170;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #687170; }
+
+.btn-success {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  width: 141px;
+  height: 37px;
+  margin: 22px 0px 0px -15px;
+  display: block;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #f28858;
+  text-align: center;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 9px 0px #b56642;
+  -moz-box-shadow: 0px 9px 0px #b56642;
+  box-shadow: 0px 3px 0px #b56642; }
+
+.support .btn {
+  border: none; }
+
+/*----performance----*/
+/*.performance {
+  margin: 50px 110px 0px 110px;
+}*/
+.performance h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fa714d;
+  line-height: 50px; }
+
+.performance li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #687170;
+  line-height: 28px; }
+
+.list-unstyled {
+  padding-right: 60px; }
+
+.fa-check {
+  color: #77a1a0;
+  font-size: 12px; }
+
+/*----testimonial----*/
+.testimonial {
+  background-color: #f28858;
+  padding: 0;
+  /*margin-top: -20px;
+  padding: 0px 110px 100px 110px;*/ }
+
+.testimonial h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #c8d8d7;
+  background-color: #ffffff;
+  border-radius: 0px 0px 40px 40px;
+  padding: 50px 50px 30px 50px;
+  margin: 0px;
+  margin-bottom: 20px; }
+
+.testimonial h2:nth-of-type(2) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #c8d8d7;
+  background-color: #ffffff;
+  border-radius: 40px 40px 0px 0px;
+  padding: 50px 50px 30px 50px;
+  margin: 0px;
+  margin-top: 20px;
+  clear: both; }
+
+.testimonial h4 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 30px; }
+
+.testimonial p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  color: #f3ddd4;
+  line-height: 26px; }
+
+.performance .progress {
+  height: 25px;
+  border-radius: 0px; }
+  .performance .progress .progress-bar {
+    background-image: linear-gradient(to bottom, #c8d8d7 0, #c8d8d7 100%); }
+
+/*# sourceMappingURL=styles.css.map */
