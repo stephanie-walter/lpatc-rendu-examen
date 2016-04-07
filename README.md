@@ -1,4 +1,4 @@
-    # Numéro de groupe
+Groupe 4
 
 - Ngu Leubou Richard
 - Stephan Thomas 
