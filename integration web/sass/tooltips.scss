@@ -1,0 +1,53 @@
+$org: #f28858;
+$org-dr: #b56642;
+$org-h: #cd8757;
+$org-x: #fa6734;
+$bgrey: #c8d8d7;
+$bgrey-l: #b6bfb6;
+$bgrey-dr: #8c9796;
+$bgrey-drk: #576f6f;
+$bgreen: #77a1a0;
+$grey: #f5f5f5;
+$grey-l: #f2f2f2;
+$grey-dr: #e0e0e0;
+$grey-drk: #9a9a9a;
+$grey-xl: #f1f1f1;
+$text: #687170;
+$text-dr: #7f8c8c;
+$text-o-l: #f3ddd4;
+
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+@mixin calc($property, $expression) { 
+  #{$property}: -webkit-calc(#{$expression}); 
+  #{$property}: calc(#{$expression}); 
+}
